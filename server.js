@@ -9,6 +9,26 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+
+app.get('/article-one', function(req,res){
+    res.send('Dummy text for article ONE');
+    
+    
+});
+
+
+pp.get('/article-two', function(req,res){
+    res.send('Dummy text for article TWO');
+    
+    
+});
+
+
+pp.get('/article-three', function(req,res){
+    res.send('Placeholder for article THREE');
+    
+    
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
