@@ -25,7 +25,7 @@ app.get('/article-two', function(req,res){
 
 
 app.get('/article-three', function(req,res){
-    res.send('Placeholder for article THREE');
+    res.send('<hr><h1>Placeholder for article THREE</h1><hr>');
     
     
 });
